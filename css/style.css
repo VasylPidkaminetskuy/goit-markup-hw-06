@@ -634,9 +634,6 @@ header {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
-.portfolio-img {
-  height: 100%;
-}
 
 @media screen and (min-width: 768px) {
 
