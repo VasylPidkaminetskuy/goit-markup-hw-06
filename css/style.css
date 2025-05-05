@@ -700,6 +700,12 @@ header {
     display: inline;
     align-items: normal;
   }
+
+  @media (min-resolution: 192dpi) {
+    .section-hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+          url(../images/hero-bg-2X.jpg);
 }
 
 @media screen and (min-width: 1158px) {
