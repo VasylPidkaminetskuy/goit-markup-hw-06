@@ -707,7 +707,7 @@ header {
             rgba(46, 47, 66, 0.7)),
           url(../images/hero-bg-2X.jpg); }
 }
-
+}
 @media screen and (min-width: 1158px) {
   .section-hero {
     padding-top: 188px;
