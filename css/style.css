@@ -160,6 +160,7 @@ header {
   /* not open modal */
 
   padding: 72px 16px 40px;
+  z-index: 999;
 }
 
 .header-mob-menu.is-open {
