@@ -217,6 +217,7 @@ header {
   flex-direction: column;
   gap: 24px;
   margin-bottom: 48px;
+  font-style: normal;
 }
 
 .mob-address-link {
@@ -382,6 +383,14 @@ header {
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
+    
+}
+@media screen and (min-resolution: 192dpi) {
+  .section-hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+      url(../images/hero-bg-2X.jpg);
+  }
 }
 
 .section-hero-title {
@@ -714,13 +723,20 @@ header {
     padding-bottom: 188px;
     max-width: 100%;
   }
-
+}
   .section-hero-title {
     max-width: 496px;
     font-size: 56px;
     line-height: 1.1;
     margin-bottom: 48px;
   }
+
+    @media (min-resolution: 192dpi) {
+      .section-hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+          url(../images/hero-bg-2X.jpg);
+      }
 }
 /* section-hero */
 
@@ -739,7 +755,7 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  gap: 24px;
+  gap: 72px;
 }
 
 .section-feature-title {
@@ -770,6 +786,7 @@ header {
   }
 
   .section-feature-list {
+    gap: 24px;
     row-gap: 72px;
   }
 
